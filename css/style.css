@@ -97,7 +97,7 @@ a:hover:after {
     margin-bottom: 0em;
     letter-spacing: .2em;
     width: 270px;
-    
+
     outline: black 1px solid;
 }
 
@@ -108,4 +108,10 @@ a:hover:after {
     font-size: 1.5em;
     margin-left: 10em;
     margin-right: .5em;
+}
+
+.more_btn {
+    padding: .5em 4em;
+    margin: 40px auto ;
+    display: block;
 }
