@@ -98,7 +98,7 @@ a:hover:after {
     letter-spacing: .2em;
     width: 270px;
 
-    outline: black 1px solid;
+    border: black 1px solid;
 }
 
 .content2 {
@@ -112,6 +112,34 @@ a:hover:after {
 
 .more_btn {
     padding: .5em 4em;
-    margin: 40px auto ;
+    margin: 40px auto;
     display: block;
+    border-radius: 20px;
+}
+
+.projects {
+    display: flex;
+    padding: .5em 4em;
+    margin-top: 5em;
+    border: 1px solid black;
+    height: 500px;
+}
+
+#projects-btn {
+    all: unset;
+    display: block;
+    border: 1px solid black;
+    width: 200px;
+    margin: 3em auto 20em auto;
+    text-align: center;
+}
+
+.p-description {
+    width: 10em;
+}
+
+.project-pic {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
 }
