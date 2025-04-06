@@ -9,6 +9,7 @@ body {
     justify-content: space-between;
     text-align: center;
     font-family: "Quicksand", sans-serif;
+
     overflow: hidden;
     position: fixed;
     /* Set the navbar to fixed position */
@@ -53,7 +54,8 @@ ul {
 }
 
 /*expanding underline*/
-a {
+.nav,
+.home {
     color: #cad2c5;
     /*color: #9a8f97;*/
     text-transform: uppercase;
@@ -64,7 +66,8 @@ a {
     position: relative;
 }
 
-a:after {
+.nav:after,
+.home:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -85,6 +88,7 @@ a:hover:after {
 }
 
 .resume {
+    box-shadow: black 15px 14px 8px;
     display: block;
     margin: auto auto;
     margin-top: 10em;
@@ -98,7 +102,7 @@ a:hover:after {
     letter-spacing: .2em;
     width: 270px;
 
-    border: black 1px solid;
+    /* border: black 1px solid; */
 }
 
 .content2 {
@@ -110,14 +114,15 @@ a:hover:after {
     margin-right: .5em;
 }
 
-.more_btn {
+/* .more_btn {
     padding: .5em 4em;
     margin: 40px auto;
     display: block;
     border-radius: 20px;
-}
+} */
 
 .projects {
+    color: #cad2c5;
     display: flex;
     padding: .5em 4em;
     margin-top: 5em;
@@ -126,20 +131,101 @@ a:hover:after {
 }
 
 #projects-btn {
+    text-decoration: none;
+
+}
+
+.more_btn {
+    font-weight: bolder;
+    display: block;
+    padding: 1.3em 3em;
+    font-size: 1em;
+    text-transform: lowercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #52796f;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin: 5em auto 40em auto;
+}
+
+.more_btn:hover {
+    /* background-color: #52796f; */
+    box-shadow: 0px 15px 20px #cad2c5;
+    /* color: #fff; */
+    transform: translateY(-7px);
+}
+
+.more-btn:active {
+    transform: translateY(-1px);
+}
+
+/* #projects-btn {
     all: unset;
     display: block;
     border: 1px solid black;
     width: 200px;
     margin: 3em auto 20em auto;
+
     text-align: center;
-}
+} */
 
 .p-description {
+    color: #cad2c5;
     width: 10em;
+    margin-right: 2em;
 }
 
 .project-pic {
+    border: 3px solid black;
+    border-radius: 50px;
     margin: 0 auto;
-    width: 600px;
+    width: 480px;
     height: auto;
+}
+
+#p-link {
+    text-decoration: none;
+}
+
+#p-link h3 {
+    text-decoration: none;
+    display: block;
+    color: black;
+    margin-top: 5em;
+    margin-left: .5em;
+}
+
+#p-link:hover {
+    text-decoration: underline;
+    color: #cad2c5;
+}
+
+#project-section-0 {
+    height: 5px;
+}
+
+.contact-wrapper {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* full height of the viewport */
+    margin: 0;
+}
+
+.contact-block {
+    border: 1px solid black;
+    display: flex;
+}
+
+.con .btn-txt-spn {
+    display: inline-block;
+    margin-bottom: 5px;
 }

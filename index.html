@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <title>MattMacari</title>
 </head>
 
@@ -19,7 +22,7 @@
         <nav>
             <ul>
                 <li><a href="/portfolioPage/html/about.html" class="nav">about</a></li>
-                <li><a href="/portfolioPage/html/projects.html" class="nav">projects</a></li>
+                <!-- <li><a href="/portfolioPage/html/projects.html" class="nav">projects</a></li> -->
                 <li><a href="/portfolioPage/html/contact.html" class="nav">contact</a></li>
                 <li><a href="/portfolioPage/html/resume.html" class="nav">resume</a></li>
             </ul>
@@ -39,20 +42,43 @@
         performance optimization.
         I also explore marketing, branding, and strategy to create impactful connections. Let’s build something awesome!
 
-    </div>
-    <a id="projects-btn" href="#project-section-1"><button class="more_btn">Projects<br>&darr;</button></a>
 
+    </div>
+
+    <a id="projects-btn" href="#project-section-0"><button class="more_btn"><span
+                class="btn-txt-spn">Projects</span><br> <i class="fa-solid fa-arrow-down"></i></button></a>
+
+    <div id="project-section-0" class="projects"></div>
     <div id="project-section-1" class="projects">
         <div class="p-text">
             <h2>Etch-a-Sketch </h2>
             <p class="p-description">For this project I used HTML,
                 CSS, and JavaScript to create a web based 'Etch-a-Sketch'. The user can scroll over a grid to 'sketch'
                 and
-                when they want to reset, they get to choose the size of the board!</p>
+                when they want to reset, they get to choose the size of the board!
+            </p>
+            <a id="p-link" href="https://matt-macari.github.io/etch-a-sketch/etch.html">
+                <h3>check it out!</h3>
+            </a>
+
         </div>
+
         <img class="project-pic" src="/images/etch-sketch.jpg" alt="screenshot of etch-sketch">
     </div>
-    <div id="project-section-2" class="projects">projects goes here</div>
+    <div id="project-section-2" class="projects">
+        <div class="p-text">
+            <h2>JS Calculator </h2>
+            <p class="p-description">For this project I wrote functions in JavaScript to simulate basic calculations.
+                And I styled it with CSS to make it look clean!
+            </p>
+            <a id="p-link" href="https://matt-macari.github.io/calculator/calculator.html">
+                <h3>check it out!</h3>
+            </a>
+
+        </div>
+
+        <img class="project-pic" src="/images/calclator.jpg" alt="screenshot of calculator project">
+    </div>
 
 
 
