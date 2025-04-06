@@ -126,7 +126,7 @@ a:hover:after {
     display: flex;
     padding: .5em 4em;
     margin-top: 5em;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 500px;
 }
 
@@ -165,6 +165,12 @@ a:hover:after {
     transform: translateY(-1px);
 }
 
+#projects-btn .fa-arrow-down {
+    font-size: 20px;
+    /* Adjust the size as needed */
+    margin-top: 8px;
+}
+
 /* #projects-btn {
     all: unset;
     display: block;
@@ -173,7 +179,7 @@ a:hover:after {
     margin: 3em auto 20em auto;
 
     text-align: center;
-} */
+}  */
 
 .p-description {
     color: #cad2c5;
