@@ -244,13 +244,30 @@ a:hover:after {
     grid-area: icon-1;
 }
 
+.icon-1 a {
+    text-decoration: none;
+    color: #cad2c5;
+}
+
 .icon-2 {
     grid-area: icon-2;
-    
+
+}
+
+.icon-2 a {
+    text-decoration: none;
+    color: #cad2c5;
 }
 
 .icon-3 {
     grid-area: icon-3;
+
+}
+
+.icon-3 a {
+    text-decoration: none;
+    color: #cad2c5;
+
 }
 
 .text-1 {
@@ -284,8 +301,9 @@ i {
     color: #cad2c5;
 }
 
-.icon-1:hover,
-.icon-2:hover,
-.icon-3:hover,.email-contact:hover {
-    color: black
+.icon-1:hover a,
+.icon-3:hover a,
+.icon-2:hover a {
+    color: black;
+    transition: color 0.5s ease;
 }
