@@ -313,3 +313,13 @@ i {
     color: black;
     transition: color 0.5s ease;
 }
+
+.about-content {
+    max-width: 650px;
+    color: #cad2c5;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+    margin-top: 10em;
+    margin-left: 10em;
+    margin-right: .5em;
+}
